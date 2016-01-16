@@ -1,0 +1,2 @@
+2016-01-15 03:10	this is a log message
+2016-01-15 03:10	this is another log message
