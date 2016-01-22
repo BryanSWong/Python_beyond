@@ -1,4 +1,4 @@
-import datetime, csv, sys, abc
+import datetime, csv, abc
 
 '''
 example of using the datetime
@@ -10,7 +10,7 @@ class WriteFile(object):
 
 	@abc.abstractmethod
 	def write(self, input):
-		pass
+		return
 
 class LogFile(WriteFile):
 

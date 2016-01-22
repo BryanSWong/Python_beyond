@@ -1,3 +1,10 @@
+"""
+This is the extra credit assignment where you have 
+to implement WriteFile, CSVFormatter, LogFormatter
+and then figure out how it is used and called upon
+to make the following work.
+"""
+
 from assignment2_ec import WriteFile, CSVFormatter, LogFormatter
 
 writecsv = WriteFile('text2.csv', CSVFormatter)

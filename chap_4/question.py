@@ -1,5 +1,8 @@
 '''
-this is the question
+this assignment require you to write the three classes
+WriteFile, LogFile, and DelimFile and have LogFile and 
+DelimFile inherit from WriteFile and make WriteFile an 
+abstract class. and then make the following code work.
 '''
 
 from assignment2 import LogFile, DelimFile
