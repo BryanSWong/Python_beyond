@@ -12,7 +12,8 @@ class WriteFile(object):
 		# gets the file, then calls the formatter
 		# then uses the formatters function and adds the input
 		# then adds a new line for extra function calls
-		self.target.write(self.formatter.write(input) + "\n")
+		self.target.write(self.formatter.write(input))
+		self.target.write("\n")
 
 	# meathod to close the file
 	def close(self):
