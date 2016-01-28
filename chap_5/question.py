@@ -14,3 +14,9 @@ print(cc['email_to'])
 cc['database'] = 'mysql_managed'
 
 print cc
+
+"""
+sql_query=SELECT this FROM that WHERE condition
+email_to=me@mydomain.com
+num_retries=5
+"""
